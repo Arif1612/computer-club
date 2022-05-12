@@ -1,0 +1,21 @@
+.member-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.member-details {
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.member-cart {
+    border: 3px solid salmon;
+    margin-top: 30px;
+    padding: 5px;
+    margin-right: 15px;
+    border-radius: 10px;
+    height: 10%;
+    box-shadow: 5px 5px 15px gray;
+    text-align: center;
+}

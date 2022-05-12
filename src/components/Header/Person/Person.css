@@ -1,0 +1,30 @@
+.person {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 5px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+.person img {
+    max-width: 95%;
+    /* height: auto; */
+}
+
+.details {
+
+    font-size: 1.40vw;
+}
+
+.add-button {
+    background-color: goldenrod;
+    width: 200px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 700;
+    cursor: pointer;
+}
